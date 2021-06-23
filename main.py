@@ -15,6 +15,7 @@ def select_proverbios():
             proverbios_lista1.append(proverbios1[x])
         else:
             proverbios_lista2.append(proverbios1[x])
+
     frase_final = \
         (choice(proverbios_lista2) + ', ' + choice(proverbios_lista1))
     return frase_final
